@@ -1,0 +1,477 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1920px;
+	 height: 3000px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #layer_1 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1920px;
+	 height: 3000px;
+	 z-index:1;
+} 
+
+ #layer_1_0 
+{ 
+	 left: 64px; 
+	 top: 48px; 
+	 position: absolute; 
+	 width: 221px;
+	 height: 197px;
+	 z-index:2;
+} 
+
+ #layer_2 
+{ 
+	 left: 0px; 
+	 top: 290px; 
+	 position: absolute; 
+	 width: 1970px;
+	 height: 823px;
+	 z-index:3;
+} 
+
+ #layer_3 
+{ 
+	 left: 912px; 
+	 top: 48px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 78px;
+	 z-index:4;
+} 
+
+ #LoginRegister 
+{ 
+	 left: 987px; 
+	 top: 74px; 
+	 position: absolute; 
+	 width: 290px;
+	 height: 44px;
+	 z-index:5;
+} 
+
+ #layer_4 
+{ 
+	 left: 1391px; 
+	 top: 56px; 
+	 position: absolute; 
+	 width: 105px;
+	 height: 62px;
+	 z-index:6;
+} 
+
+ #English 
+{ 
+	 left: 1538px; 
+	 top: 75px; 
+	 position: absolute; 
+	 width: 141px;
+	 height: 43px;
+	 z-index:7;
+} 
+
+ #layer_5 
+{ 
+	 left: 912px; 
+	 top: 147px; 
+	 position: absolute; 
+	 width: 624px;
+	 height: 98px;
+	 z-index:8;
+} 
+
+ #layer_6 
+{ 
+	 left: 244px; 
+	 top: 147px; 
+	 position: absolute; 
+	 width: 1308px;
+	 height: 849px;
+	 z-index:9;
+} 
+
+ #SALESCOUPONS 
+{ 
+	 left: 686px; 
+	 top: 537px; 
+	 position: absolute; 
+	 width: 440px;
+	 height: 53px;
+	 z-index:10;
+} 
+
+ #Ourcouponsprovideacc 
+{ 
+	 left: 271px; 
+	 top: 652px; 
+	 position: absolute; 
+	 width: 1255px;
+	 height: 299px;
+	 z-index:11;
+} 
+
+ #layer_9 
+{ 
+	 left: 827px; 
+	 top: 331px; 
+	 position: absolute; 
+	 width: 171px;
+	 height: 158px;
+	 z-index:12;
+} 
+
+ #CURRENTSALE 
+{ 
+	 left: 750px; 
+	 top: 1242px; 
+	 position: absolute; 
+	 width: 400px;
+	 height: 61px;
+	 z-index:13;
+} 
+
+ #layer_10 
+{ 
+	 left: 174px; 
+	 top: 1368px; 
+	 position: absolute; 
+	 width: 668px;
+	 height: 216px;
+	 z-index:14;
+} 
+
+ #layer_13 
+{ 
+	 left: 166px; 
+	 top: 1684px; 
+	 position: absolute; 
+	 width: 684px;
+	 height: 216px;
+	 z-index:15;
+} 
+
+ #layer_11 
+{ 
+	 left: 1053px; 
+	 top: 1684px; 
+	 position: absolute; 
+	 width: 684px;
+	 height: 212px;
+	 z-index:16;
+} 
+
+ #layer_12 
+{ 
+	 left: 1053px; 
+	 top: 1368px; 
+	 position: absolute; 
+	 width: 676px;
+	 height: 224px;
+	 z-index:17;
+} 
+
+ #layer_15 
+{ 
+	 left: 251px; 
+	 top: 1401px; 
+	 position: absolute; 
+	 width: 247px;
+	 height: 151px;
+	 z-index:18;
+} 
+
+ #layer_16 
+{ 
+	 left: 195px; 
+	 top: 1368px; 
+	 position: absolute; 
+	 width: 69px;
+	 height: 67px;
+	 z-index:19;
+} 
+
+ #TEISTERFRIES 
+{ 
+	 left: 557px; 
+	 top: 1426px; 
+	 position: absolute; 
+	 width: 203px;
+	 height: 120px;
+	 z-index:20;
+} 
+
+ #layer_17 
+{ 
+	 left: 1150px; 
+	 top: 1410px; 
+	 position: absolute; 
+	 width: 240px;
+	 height: 142px;
+	 z-index:21;
+} 
+
+ #layer_18 
+{ 
+	 left: 1079px; 
+	 top: 1376px; 
+	 position: absolute; 
+	 width: 71px;
+	 height: 68px;
+	 z-index:22;
+} 
+
+ #layer_19 
+{ 
+	 left: 1099px; 
+	 top: 1701px; 
+	 position: absolute; 
+	 width: 82px;
+	 height: 70px;
+	 z-index:23;
+} 
+
+ #layer_20 
+{ 
+	 left: 195px; 
+	 top: 1684px; 
+	 position: absolute; 
+	 width: 70px;
+	 height: 63px;
+	 z-index:24;
+} 
+
+ #layer_21 
+{ 
+	 left: 265px; 
+	 top: 1731px; 
+	 position: absolute; 
+	 width: 251px;
+	 height: 139px;
+	 z-index:25;
+} 
+
+ #ZIINGERFRIES 
+{ 
+	 left: 576px; 
+	 top: 1735px; 
+	 position: absolute; 
+	 width: 198px;
+	 height: 120px;
+	 z-index:26;
+} 
+
+ #MEGAPOCKETFRIES 
+{ 
+	 left: 1383px; 
+	 top: 1426px; 
+	 position: absolute; 
+	 width: 353px;
+	 height: 120px;
+	 z-index:27;
+} 
+
+ #WATCHTHISSPACE 
+{ 
+	 left: 1204px; 
+	 top: 1735px; 
+	 position: absolute; 
+	 width: 474px;
+	 height: 141px;
+	 z-index:28;
+} 
+
+ #layer_23 
+{ 
+	 left: 0px; 
+	 top: 2008px; 
+	 position: absolute; 
+	 width: 1920px;
+	 height: 592px;
+	 z-index:29;
+} 
+
+ #OURMENU 
+{ 
+	 left: 1248px; 
+	 top: 2064px; 
+	 position: absolute; 
+	 width: 286px;
+	 height: 60px;
+	 z-index:30;
+} 
+
+ #layer_27 
+{ 
+	 left: 1536px; 
+	 top: 1915px; 
+	 position: absolute; 
+	 width: 311px;
+	 height: 273px;
+	 z-index:31;
+} 
+
+ #layer_24 
+{ 
+	 left: 76px; 
+	 top: 2147px; 
+	 position: absolute; 
+	 width: 154px;
+	 height: 112px;
+	 z-index:32;
+} 
+
+ #Burgers 
+{ 
+	 left: 264px; 
+	 top: 2180px; 
+	 position: absolute; 
+	 width: 195px;
+	 height: 55px;
+	 z-index:33;
+} 
+
+ #layer_26 
+{ 
+	 left: 585px; 
+	 top: 2144px; 
+	 position: absolute; 
+	 width: 146px;
+	 height: 128px;
+	 z-index:34;
+} 
+
+ #Chicken 
+{ 
+	 left: 805px; 
+	 top: 2187px; 
+	 position: absolute; 
+	 width: 199px;
+	 height: 50px;
+	 z-index:35;
+} 
+
+ #layer_28 
+{ 
+	 left: 586px; 
+	 top: 2340px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 142px;
+	 z-index:36;
+} 
+
+ #icecream 
+{ 
+	 left: 806px; 
+	 top: 2379px; 
+	 position: absolute; 
+	 width: 242px;
+	 height: 49px;
+	 z-index:37;
+} 
+
+ #layer_29 
+{ 
+	 left: 1140px; 
+	 top: 2162px; 
+	 position: absolute; 
+	 width: 161px;
+	 height: 107px;
+	 z-index:38;
+} 
+
+ #layer_30 
+{ 
+	 left: 76px; 
+	 top: 2360px; 
+	 position: absolute; 
+	 width: 163px;
+	 height: 132px;
+	 z-index:39;
+} 
+
+ #drink 
+{ 
+	 left: 279px; 
+	 top: 2396px; 
+	 position: absolute; 
+	 width: 129px;
+	 height: 49px;
+	 z-index:40;
+} 
+
+ #Cake 
+{ 
+	 left: 1361px; 
+	 top: 2190px; 
+	 position: absolute; 
+	 width: 120px;
+	 height: 50px;
+	 z-index:41;
+} 
+
+ #layer_31 
+{ 
+	 left: 0px; 
+	 top: 2596px; 
+	 position: absolute; 
+	 width: 1920px;
+	 height: 404px;
+	 z-index:42;
+} 
+
+ #layer_32 
+{ 
+	 left: 1216px; 
+	 top: 2799px; 
+	 position: absolute; 
+	 width: 108px;
+	 height: 121px;
+	 z-index:43;
+} 
+
+ #ACCOUNTLOGIN 
+{ 
+	 left: 1447px; 
+	 top: 2797px; 
+	 position: absolute; 
+	 width: 224px;
+	 height: 144px;
+	 z-index:44;
+} 
+
+ #layer_33 
+{ 
+	 left: 124px; 
+	 top: 2783px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 124px;
+	 z-index:45;
+} 
+
+ #ORDERBYPHONE80149494 
+{ 
+	 left: 314px; 
+	 top: 2797px; 
+	 position: absolute; 
+	 width: 312px;
+	 height: 124px;
+	 z-index:46;
+} 
