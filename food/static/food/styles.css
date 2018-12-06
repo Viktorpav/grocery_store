@@ -2,39 +2,25 @@
 	margin: 0;
 	padding: 0;
  }
- 
- #background 
-{ 
-	 left: 0px; 
-	 top: 0px; 
-	 position: relative; 
-	 margin-left: auto; 
-	 margin-right: auto; 
-	 width: 1920px;
-	 height: 3000px; 
-	 overflow: hidden;
-	 z-index:0;
-	} 
 
- #layer_1 
-{ 
-	 left: 0px; 
-	 top: 0px; 
-	 position: absolute; 
+ #logo {
+	 width: 70px;
+	 height: 70px;
+
+ }
+
+ #background
+{
+	 left: 0px;
+	 top: 0px;
+	 position: relative;
+	 margin-left: auto;
+	 margin-right: auto;
 	 width: 1920px;
 	 height: 3000px;
-	 z-index:1;
-} 
-
- #layer_1_0 
-{ 
-	 left: 64px; 
-	 top: 48px; 
-	 position: absolute; 
-	 width: 221px;
-	 height: 197px;
-	 z-index:2;
-} 
+	 overflow: hidden;
+	 z-index:0;
+	}
 
  #layer_2 
 { 
@@ -54,36 +40,6 @@
 	 width: 73px;
 	 height: 78px;
 	 z-index:4;
-} 
-
- #LoginRegister 
-{ 
-	 left: 987px; 
-	 top: 74px; 
-	 position: absolute; 
-	 width: 290px;
-	 height: 44px;
-	 z-index:5;
-} 
-
- #layer_4 
-{ 
-	 left: 1391px; 
-	 top: 56px; 
-	 position: absolute; 
-	 width: 105px;
-	 height: 62px;
-	 z-index:6;
-} 
-
- #English 
-{ 
-	 left: 1538px; 
-	 top: 75px; 
-	 position: absolute; 
-	 width: 141px;
-	 height: 43px;
-	 z-index:7;
 } 
 
  #layer_5 
