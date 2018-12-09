@@ -1,46 +1,20 @@
 from django.db import models
-
-
-
-'''
-from django.core.exceptions import ValidationError
-from django import forms
-from .models import *
 from django.contrib.auth.models import User
-from django.core.validators import validate_email
+from PIL import Image
 
-class Registration_form(forms.ModelForm):
-    name = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter your name'}),max_length=50, required=True, unique=True)
-    username = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter your username'}),max_length=50, required=True, unique=True)
-    email_reg = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter your email'}),max_length=50, required=True, unique=True)
-    password_reg = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Enter password'}),max_length=50, required=True)
-    confirm_password_reg = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Confirm password'}),max_length=50, required=True)
+class Profile(models.Model):
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+    image = models.ImageField(default='default.jpg', upload_to='profile_pics')
 
-    class Meta():
-        model = Registration_form
-        fields = ['name', 'username', 'email_reg', 'password_reg', 'confirm_password_reg']
+    def __str__(self):
+        return f'{self.user.username} Profile'
 
-class Login_form(forms.ModelForm):
-    email_log = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control', 'placeholder': 'Enter your email'}),max_length=50, required=True)
-    password_log = forms.CharField(widget=forms.PasswordInput(attrs={'class': 'form-control', 'placeholder': 'Enter password'}),max_length=50, required=True)
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
 
-    class Meta():
-        model = Login_form
-        fields = ['email_log', 'password_log']
+        img = Image.open(self.image.path)
 
-    def clean_username(self):
-        username = self.cleaned_data['username']
-        try:
-            match = Username.objects.get(name = username)
-        except:
-            return self.cleaned_data['username']
-        raise forms.ValidationError('Username already exist')
-
-        def clean_email(self):
-            email = self.cleaned_data['username']
-            try:
-                match = Username.objects.get(name = username)
-            except:
-                return self.cleaned_data['username']
-            raise forms.ValidationError('Username already exist')
-'''
+        if img.height > 300 or img.width > 300:
+            output_size = (300, 300)
+            img.thumbnail(output_size)
+            img.save(self.image.path)
