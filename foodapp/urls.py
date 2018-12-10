@@ -26,8 +26,8 @@ admin.autodiscover()
 urlpatterns = [
     path('', include('food.urls')),
     path('registration/', reg_views.registration, name='register-registration'),
-    #path('menu/', MenuForm, name='menu'),
-    path('profile/', reg_views.profile, name='profile'),
+    path('orders/', include('orders.urls'), name='order'),
+    path('profile/', reg_views.profile, name='profile'), #if some error here I deleted reg_views.profile
     path('login/', auth_views.LoginView.as_view(template_name='registration/login.html'), name='login'),
     path('logout/', auth_views.LogoutView.as_view(template_name='registration/logout.html'), name='logout'),
     path('password-reset/', auth_views.PasswordResetView.as_view(template_name='registration/password_reset.html'), name='password_reset'),
