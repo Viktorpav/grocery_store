@@ -1,0 +1,447 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1024px;
+	 height: 768px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #layer_1 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1024px;
+	 height: 768px;
+	 z-index:1;
+} 
+
+ #layer_1_0 
+{ 
+	 left: 229px; 
+	 top: 49px; 
+	 position: absolute; 
+	 width: 96px;
+	 height: 80px;
+	 z-index:2;
+} 
+
+ #IceCream 
+{ 
+	 left: 408px; 
+	 top: 62px; 
+	 position: absolute; 
+	 width: 234px;
+	 height: 46px;
+	 z-index:3;
+} 
+
+ #layer_1_1 
+{ 
+	 left: 325px; 
+	 top: 54px; 
+	 position: absolute; 
+	 width: 444px;
+	 height: 68px;
+	 z-index:4;
+} 
+
+ #layer_2 
+{ 
+	 left: 210px; 
+	 top: 209px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 70px;
+	 z-index:5;
+} 
+
+ #layer_3 
+{ 
+	 left: 605px; 
+	 top: 208px; 
+	 position: absolute; 
+	 width: 76px;
+	 height: 71px;
+	 z-index:6;
+} 
+
+ #layer_4 
+{ 
+	 left: 214px; 
+	 top: 386px; 
+	 position: absolute; 
+	 width: 81px;
+	 height: 68px;
+	 z-index:7;
+} 
+
+ #layer_5 
+{ 
+	 left: 605px; 
+	 top: 365px; 
+	 position: absolute; 
+	 width: 112px;
+	 height: 89px;
+	 z-index:8;
+} 
+
+ #layer_6 
+{ 
+	 left: 210px; 
+	 top: 586px; 
+	 position: absolute; 
+	 width: 89px;
+	 height: 78px;
+	 z-index:9;
+} 
+
+ #VanillaIceCream 
+{ 
+	 left: 110px; 
+	 top: 172px; 
+	 position: absolute; 
+	 width: 104px;
+	 height: 14px;
+	 z-index:10;
+} 
+
+ #StrawberryIceCream 
+{ 
+	 left: 518px; 
+	 top: 170px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 22px;
+	 z-index:11;
+} 
+
+ #ChocolateIceCream 
+{ 
+	 left: 110px; 
+	 top: 352px; 
+	 position: absolute; 
+	 width: 126px;
+	 height: 14px;
+	 z-index:12;
+} 
+
+ #FancyIceCream 
+{ 
+	 left: 524px; 
+	 top: 341px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 18px;
+	 z-index:13;
+} 
+
+ #ChocolateIceCream3ba 
+{ 
+	 left: 109px; 
+	 top: 539px; 
+	 position: absolute; 
+	 width: 182px;
+	 height: 21px;
+	 z-index:14;
+} 
+
+ #Add 
+{ 
+	 left: 376px; 
+	 top: 253px; 
+	 position: absolute; 
+	 width: 62px;
+	 height: 17px;
+	 z-index:15;
+} 
+
+ #layer_8 
+{ 
+	 left: 318px; 
+	 top: 240px; 
+	 position: absolute; 
+	 width: 173px;
+	 height: 39px;
+	 z-index:16;
+} 
+
+ #Add_0 
+{ 
+	 left: 768px; 
+	 top: 252px; 
+	 position: absolute; 
+	 width: 74px;
+	 height: 18px;
+	 z-index:17;
+} 
+
+ #Add_1 
+{ 
+	 left: 373px; 
+	 top: 430px; 
+	 position: absolute; 
+	 width: 62px;
+	 height: 18px;
+	 z-index:18;
+} 
+
+ #Add_2 
+{ 
+	 left: 766px; 
+	 top: 425px; 
+	 position: absolute; 
+	 width: 62px;
+	 height: 17px;
+	 z-index:19;
+} 
+
+ #Add_3 
+{ 
+	 left: 374px; 
+	 top: 624px; 
+	 position: absolute; 
+	 width: 61px;
+	 height: 18px;
+	 z-index:20;
+} 
+
+ #layer_9 
+{ 
+	 left: 705px; 
+	 top: 242px; 
+	 position: absolute; 
+	 width: 202px;
+	 height: 37px;
+	 z-index:21;
+} 
+
+ #layer_10 
+{ 
+	 left: 325px; 
+	 top: 421px; 
+	 position: absolute; 
+	 width: 184px;
+	 height: 37px;
+	 z-index:22;
+} 
+
+ #layer_11 
+{ 
+	 left: 327px; 
+	 top: 416px; 
+	 position: absolute; 
+	 width: 577px;
+	 height: 239px;
+	 z-index:23;
+} 
+
+ #6PLN 
+{ 
+	 left: 162px; 
+	 top: 213px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 13px;
+	 z-index:24;
+} 
+
+ #6PLN_0 
+{ 
+	 left: 561px; 
+	 top: 218px; 
+	 position: absolute; 
+	 width: 38px;
+	 height: 13px;
+	 z-index:25;
+} 
+
+ #layer_12 
+{ 
+	 left: 790px; 
+	 top: 105px; 
+	 position: absolute; 
+	 width: 100px;
+	 height: 73px;
+	 z-index:26;
+} 
+
+ #layer_13 
+{ 
+	 left: 890px; 
+	 top: 121px; 
+	 position: absolute; 
+	 width: 96px;
+	 height: 55px;
+	 z-index:27;
+} 
+
+ #GO 
+{ 
+	 left: 914px; 
+	 top: 136px; 
+	 position: absolute; 
+	 width: 30px;
+	 height: 22px;
+	 z-index:28;
+} 
+
+ #layer_2_0 
+{ 
+	 left: 952px; 
+	 top: 136px; 
+	 position: absolute; 
+	 width: 25px;
+	 height: 21px;
+	 z-index:29;
+} 
+
+ #6PLN_1 
+{ 
+	 left: 168px; 
+	 top: 393px; 
+	 position: absolute; 
+	 width: 37px;
+	 height: 13px;
+	 z-index:30;
+} 
+
+ #10PLN 
+{ 
+	 left: 566px; 
+	 top: 390px; 
+	 position: absolute; 
+	 width: 42px;
+	 height: 13px;
+	 z-index:31;
+} 
+
+ #10PLN_0 
+{ 
+	 left: 168px; 
+	 top: 590px; 
+	 position: absolute; 
+	 width: 43px;
+	 height: 13px;
+	 z-index:32;
+} 
+
+ #layer_14 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 84px;
+	 height: 768px;
+	 z-index:33;
+} 
+
+ #layer_15 
+{ 
+	 left: 0px; 
+	 top: 83px; 
+	 position: absolute; 
+	 width: 96px;
+	 height: 70px;
+	 z-index:34;
+} 
+
+ #ICECREAM 
+{ 
+	 left: 5px; 
+	 top: 182px; 
+	 position: absolute; 
+	 width: 91px;
+	 height: 18px;
+	 z-index:35;
+} 
+
+ #layer_16 
+{ 
+	 left: -2px; 
+	 top: 244px; 
+	 position: absolute; 
+	 width: 79px;
+	 height: 48px;
+	 z-index:36;
+} 
+
+ #CAKE 
+{ 
+	 left: 20px; 
+	 top: 308px; 
+	 position: absolute; 
+	 width: 34px;
+	 height: 14px;
+	 z-index:37;
+} 
+
+ #layer_17 
+{ 
+	 left: -1px; 
+	 top: 361px; 
+	 position: absolute; 
+	 width: 77px;
+	 height: 45px;
+	 z-index:38;
+} 
+
+ #BURGERES 
+{ 
+	 left: 2px; 
+	 top: 434px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 15px;
+	 z-index:39;
+} 
+
+ #layer_18 
+{ 
+	 left: 0px; 
+	 top: 491px; 
+	 position: absolute; 
+	 width: 74px;
+	 height: 44px;
+	 z-index:40;
+} 
+
+ #CHICKEN 
+{ 
+	 left: 8px; 
+	 top: 565px; 
+	 position: absolute; 
+	 width: 57px;
+	 height: 14px;
+	 z-index:41;
+} 
+
+ #layer_19 
+{ 
+	 left: -1px; 
+	 top: 619px; 
+	 position: absolute; 
+	 width: 75px;
+	 height: 48px;
+	 z-index:42;
+} 
+
+ #DRINKS 
+{ 
+	 left: 11px; 
+	 top: 690px; 
+	 position: absolute; 
+	 width: 55px;
+	 height: 13px;
+	 z-index:43;
+} 
