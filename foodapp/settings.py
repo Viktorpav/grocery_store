@@ -67,6 +67,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'orders.context_processors.getting_basket_info',
             ],
             'builtins': [
                 'django.contrib.staticfiles.templatetags.staticfiles',
