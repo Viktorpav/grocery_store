@@ -1,9 +1,6 @@
 from django import forms
-#from .models import Menu_IceCream
+from .models import *
 
-
-# class MenuForm(forms.ModelForm):
-#
-#     class Meta:
-#         model = Menu_IceCream
-#         fields = ['name', 'price', 'image']
+class CheckOutForm(forms.Form):
+    name = forms.CharField(required=True)
+    phone = forms.CharField(required=True)
