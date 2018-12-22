@@ -26,7 +26,13 @@ body, html {
 }
 
 .section-top{
-	margin-bottom: 20px;
+
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	background-image: none;
+	background-attachment: scroll;
+	background-size: cover;
 }
 
 
@@ -117,4 +123,25 @@ body, html {
 
 .form-error{
 	color: red;
+}
+
+.hero-bkg-animated {
+  background: gray url(https://media.giphy.com/media/3o7btUDtnx3gTwIlmo/giphy.gif) repeat 0 0;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  height: 300px;
+  padding-top: 120px;
+  box-sizing: border-box;
+  -webkit-animation: slide 20s linear infinite;
+}
+
+.hero-bkg-animated h3 {
+  font-family: sans-serif;
+	color: #290de0;
+}
+
+@-webkit-keyframes slide {
+    from { background-position: 0 0; }
+    to { background-position: -300px 0; }
 }
