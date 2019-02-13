@@ -44,14 +44,14 @@
                         <div role="tabpanel" class="tab-pane" id="delivery">
                             <h3>How we sent a order</h3>
                         </div>
-                        <div role="tabpanel" class="tab-pane" id="messages">...</div>
+                        <div role="tabpanel" class="tab-pane" id="messages">Contact me by Facebook</div>
                         <div role="tabpanel" class="tab-pane" id="settings">...</div>
                       </div>
                 </div>
                 <div>
                     <form id="form_buying_product" class="form-inline" action="{% url 'basket_adding' %}">{% csrf_token %}
                         <div class="form-group">
-                            <input type="number" class="form-control" name="number" id="number">
+                            <input type="number" class="form-control" name="number" id="number" value="1" min="1" max="50">
                         </div>
 
                             <div class="form-group">

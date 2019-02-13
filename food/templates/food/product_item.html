@@ -20,9 +20,11 @@
             {{ product_image.product.price }} zł
         </div>
         <div class="add-to-cart-btn">
-            <button class="btn btn-success">
-                Add to Cart
-            </button>
+            <a href="{% url 'product' product_image.product.id %}">
+                <button class="btn btn-success">
+                    Add to Cart
+                </button>
+            </a>
         </div>
     </div>
 </div>
